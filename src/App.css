@@ -1,0 +1,251 @@
+html {
+    font-family: 'poppins';
+}
+
+nav {
+    border-bottom: solid 2px #A57622;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #c1bdbd;
+}
+
+.nav-link.disabled {
+    color: #dad7d1;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero span {
+    font-weight: 500;
+    background-color: #E0BD7C;
+    line-height: 1.8;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: smaller;
+}
+
+.hero-text a {
+    background: #A57622;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: small;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-text a:hover {
+    background-color: #5e5b5b;
+}
+
+div video {
+    width: 448px;
+    height: 280px;
+    margin-left: 30px;
+}
+
+/* SERVICE SECTION */
+.service {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3E7CE;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.service img {
+    padding-right: 60px;
+    width: 450px;
+    height: 450px;
+}
+
+.service h3,
+.service li {
+    text-align: left;
+    padding: 20px;
+}
+
+.service h3 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.service li {
+    font-size: 32px;
+    list-style: inside;
+    padding: 10px;
+    font-weight: 500;
+}
+
+/* CAROUSEL */
+.carousel-item .col-md-4 {
+    padding: 10px;
+}
+
+.textv-center.mb-4 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.card-box {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease;
+  padding: 10px;
+  background-color: white;
+  height: 100%;
+}
+
+.card-box:hover {
+  transform: translateY(-10px);
+}
+
+.card-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card-box h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-box p {
+  font-size: smaller;
+  color: #828282;
+  text-align: justify;
+}
+
+
+
+.armada-btn-wrapper {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.armada-btn {
+    background-color: #A57622;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.armada-btn:hover {
+    background-color: #5e5b5b;
+}
+
+/* TESTIMONI */
+.testimoni .container {
+    background-color: #EBE5DA;
+    padding: 50px 50px;
+}
+
+.testimoni h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* FAQ */
+.pemesanan-faq {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pemesanan-faq h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 120px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-link h3 {
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.kontak {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.kontak img {
+    width: 30px;
+    height: 30px;
+}
+
+.kontak a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.kontak a:hover {
+    color: #828282;
+}
+
+.footer-logo img {
+    width: 200px;
+    height: auto;
+}

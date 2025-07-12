@@ -1,0 +1,27 @@
+.card {
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-img-top img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-body {
+  padding: 1rem;
+
+}
+
+
+

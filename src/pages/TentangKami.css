@@ -1,0 +1,95 @@
+main.content-wrapper {
+  padding: 0px 50px !important;
+}
+
+.container p {
+  text-align: justify;
+  padding-right: 50px;
+}
+
+.container h1 {
+  padding-bottom: 20px;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.container-tentang-kami img {
+  max-width: 100%;
+  height: 95% !important;
+  display: flex;
+  flex-direction: row;
+  justify-items: right; 
+  
+}
+
+.col-md-4{
+    border-radius: none !important;
+    box-shadow: none !important;
+    transition: none !important;
+    transform: none !important;
+}
+
+
+.form{
+    padding-right: 50% !important;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+/* Grid layout untuk dua kolom */
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+/* Supaya input 2 kolom rata */
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Styling form */
+label{
+    
+    font-weight:500;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 15px 46%;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #444;
+    transform: translateY(2px);
+}
+
+.form h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
